@@ -1,0 +1,114 @@
+/* Estilos para el bracket en modo oscuro */
+.bracket-container.dark-mode {
+    background-color: #1f2937;
+    color: #f3f4f6;
+}
+
+.bracket-container.dark-mode .bracket-round {
+    background-color: #111827;
+    border-color: #374151;
+}
+
+.bracket-container.dark-mode .bracket-match {
+    background-color: #1f2937;
+    border-color: #4b5563;
+}
+
+.bracket-container.dark-mode .bracket-team {
+    background-color: #2d3748;
+    border-color: #4b5563;
+}
+
+.bracket-container.dark-mode .bracket-team.winner {
+    background-color: #065f46;
+    border-color: #10b981;
+}
+
+.bracket-container.dark-mode .bracket-team.loser {
+    background-color: #7f1d1d;
+    border-color: #ef4444;
+}
+
+.bracket-container.dark-mode .bracket-team.active {
+    background-color: #1e40af;
+    border-color: #3b82f6;
+}
+
+.bracket-container.dark-mode .bracket-line {
+    background-color: #4b5563;
+}
+
+.bracket-container.dark-mode .bracket-round-title {
+    color: #e5e7eb;
+}
+
+/* Estilo para grupos en modo oscuro */
+.bracket-container.dark-mode .bracket-group {
+    background-color: #111827;
+    border-color: #374151;
+}
+
+.bracket-container.dark-mode .bracket-group-title {
+    background-color: #2d3748;
+    color: #e5e7eb;
+    border-color: #4b5563;
+}
+
+.bracket-container.dark-mode .bracket-group-table th {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    border-color: #4b5563;
+}
+
+.bracket-container.dark-mode .bracket-group-table td {
+    border-color: #4b5563;
+    color: #e5e7eb;
+}
+
+.bracket-container.dark-mode .bracket-group-table tr:nth-child(even) {
+    background-color: #2d3748;
+}
+
+.bracket-container.dark-mode .bracket-group-table tr:hover {
+    background-color: #374151;
+}
+
+/* Estilos para el sistema suizo en modo oscuro */
+.bracket-container.dark-mode .bracket-swiss-round {
+    background-color: #111827;
+    border-color: #374151;
+}
+
+.bracket-container.dark-mode .bracket-swiss-match {
+    background-color: #1f2937;
+    border-color: #4b5563;
+}
+
+/* Estilos para tooltips en modo oscuro */
+.bracket-container.dark-mode .bracket-tooltip {
+    background-color: #2d3748;
+    color: #e5e7eb;
+    border-color: #4b5563;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Estilos para el modal en modo oscuro */
+.bracket-container.dark-mode .bracket-modal-content {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    border-color: #4b5563;
+}
+
+.bracket-container.dark-mode .bracket-modal-header {
+    background-color: #2d3748;
+    border-color: #4b5563;
+}
+
+.bracket-container.dark-mode .bracket-modal-close {
+    color: #e5e7eb;
+}
+
+.bracket-container.dark-mode .bracket-modal-close:hover {
+    color: #f3f4f6;
+    background-color: #4b5563;
+} 

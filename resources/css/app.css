@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados basados en la portada */
+@layer components {
+    /* Buttons */
+    .btn-primary {
+        @apply inline-block px-4 py-2 bg-accent text-white rounded transition duration-300 ease-in-out;
+    }
+    
+    .btn-primary:hover {
+        @apply bg-opacity-90 transform -translate-y-1;
+    }
+    
+    /* Cards con efecto de hover */
+    .card {
+        @apply bg-white rounded-lg shadow p-6 transition-all duration-300;
+    }
+    
+    .card:hover {
+        @apply shadow-lg transform -translate-y-2;
+    }
+    
+    /* Efectos de transición para enlaces */
+    .nav-effect a {
+        @apply relative overflow-hidden;
+    }
+    
+    .nav-effect a::after {
+        @apply content-[''] absolute w-0 h-0.5 bg-secondary bottom-0 left-0 transition-all duration-300;
+    }
+    
+    .nav-effect a:hover::after {
+        @apply w-full;
+    }
+    
+    /* Sección hero con gradiente */
+    .hero-section {
+        @apply relative py-24 bg-gradient-to-r from-primary to-primary/80 text-white;
+    }
+
+    /* Animación de entrada para elementos */
+    .fade-in {
+        @apply opacity-0 animate-[fadeIn_0.5s_ease-in_forwards];
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
