@@ -43,7 +43,7 @@ copa_robotica_2025/
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tu-usuario/copa-robotica-2025.git
+git clone https://github.com/tu-usuario/Copa_ERM.git
 ```
 
 2. Abre el archivo `index.html` en tu navegador web.
@@ -82,8 +82,3 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-## Contacto
-
-Para cualquier consulta, contacta a:
-- Email: copa@escueladeroboticamisiones.com
-- Teléfono: +54 376 1234567
